@@ -21,3 +21,14 @@
     - Dynamic File Name: Use the dynamic content feature to define a variable for the file name.
     - Create: Once configured, click OK or Create. The dataset is now ready to be used as a source or sink in your pipelines.
  
+<img width="900" alt="adlsgen2dynamic" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2011.49.33%20PM.png" />
+
+<img width="900" alt="adlsgen2dynamic1" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2011.49.42%20PM.png" />
+
+<img width="900" alt="adlsgen2dynamic2" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2011.49.58%20PM.png" />
+
+<img width="900" alt="adlsgen2dynamic3" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2011.50.16%20PM.png" />
+
+<img width="900" alt="adlsgen2dynamic4" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2011.50.26%20PM.png" />
+
+<img width="900" alt="adlsgen2dynamic5" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2011.50.34%20PM.png" />
