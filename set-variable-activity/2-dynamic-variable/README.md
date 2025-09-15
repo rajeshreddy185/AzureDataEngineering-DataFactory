@@ -12,3 +12,4 @@
 
 6)Use dynamic content: Click Add dynamic content to build an expression. This allows you to set the variable based on the output of other activities, system variables, or a combination of functions. 
 
+https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-15%20at%209.25.50%20PM.png
