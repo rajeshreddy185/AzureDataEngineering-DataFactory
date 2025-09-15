@@ -6,37 +6,24 @@ such as databases, file systems, cloud storage, or other services.
 
 Azure Data Lake Storage GEN2 (Adls gen2) Linked service (FROM AZURE SUBSCRIPTION)
 --------------------------------------------------------
-Navigate to Linked Services
+- Navigate to Linked Services
+  - In the ADF authoring UI, click on the Manage tab on the left-hand menu.
+  - Under the Connections section, select Linked services.
+  - Click on + New to create a new linked service.
 
-In the ADF authoring UI, click on the Manage tab on the left-hand menu.
+- Choose a Data Store
+  - A list of supported data store types will appear. You can search for the one you want to connect to (e.g., "Azure Blob Storage," "SQL Server," or "Salesforce").
+  - Here, select ADLS gen2.
 
-Under the Connections section, select Linked services.
+- Configure the Linked Service
+  - Provide a name for your linked service.
+  - Fill in the required connection details. These will vary depending on the type of data store you selected.
+    - For ADLS Gen2:
+      - Select subscription and storage account you want to connect.
+      - Authentication type: How you will authenticate the connection (e.g., Account Key, Managed Identity, Service Principal).
 
-Click on + New to create a new linked service.
-
-Choose a Data Store
-
-A list of supported data store types will appear. You can search for the one you want to connect to (e.g., "Azure Blob Storage," "SQL Server," or "Salesforce").
-
-Here i will select ADLS gen2
-
-Search for gen you will see ADLS gen2 then click continue, Select type of file format type of your data.
-
-Configure the Linked Service
-
-Provide a name for your linked service.
-
-Fill in the required connection details. These will vary depending on the type of data store you selected. 
-
-For ADLS Gen2:
-
-Select subscription and storage account you want to connect
-
-Authentication type: How you will authenticate the connection (e.g., Account Key, Managed Identity, Service Principal).
-
-Create the Linked Service
-
-Once the connection test is successful, click Create to save and finalize your linked service.
+- Create the Linked Service
+  - Once the connection test is successful, click Create to save and finalize your linked service.
 
 <img width="900" alt="adlsgen2ls" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%209.59.24%20PM.png" />
 
