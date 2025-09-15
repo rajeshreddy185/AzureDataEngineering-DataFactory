@@ -1,7 +1,6 @@
 
 # **SQL SERVER LINKED SERVICE**
 
-
 - Create a New Linked Service:
   - Under the "Connections" section, click on Linked services, then click the + New button.
 
