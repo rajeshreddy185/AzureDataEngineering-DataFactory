@@ -22,3 +22,7 @@ Credentials: Enter the username and password if you choose SQL Authentication.
 Test the Connection: Click Test connection to verify that ADF can successfully connect to your database with the provided information. This step is crucial for troubleshooting any issues with credentials or network connectivity.
 
 Create the Linked Service: Once the connection test is successful, click Create to save your new linked service.
+
+<img width="900" alt="sqllspass" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2010.30.00%20PM.png" />
+
+<img width="900" alt="sqllspass1" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2010.29.39%20PM.png" />
