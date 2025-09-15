@@ -20,7 +20,10 @@ It acts as a digital "vault" where you can store and control access to cryptogra
   - Region: Select a region.
   - In the "Permissions model" tab, it's recommended to select "Azure role-based access control" (Azure RBAC) as it provides a more granular and secure way to manage access than the older "Vault access policy" model.
   - Leave other settings as default for a basic setup. Click Review + create, and then Create.
+    
+<img width="900" alt="azurekeyvault" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2010.56.58%20PM.png" />
 
+<img width="900" alt="azurekeyvault1" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2010.57.08%20PM.png" />
 
 ### 2. Assign Roles to the Key Vault
 
@@ -32,6 +35,10 @@ It acts as a digital "vault" where you can store and control access to cryptogra
   - Role: Search for and select a built-in role. For Key Vault, common data plane roles include Key Vault Secrets Officer (for read/write access), Key Vault Secrets User (for read-only access), or Key Vault Administrator.
   - Members: Select the user, group, or service principal you want to assign the role to.
   - Click Review + assign, and then Review + assign again to finalize the role assignment.
+
+<img width="900" alt="azurekeyvault2" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2010.58.38%20PM.png" />
+
+<img width="900" alt="azurekeyvault3" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2010.59.00%20PM.png" />
 
 
 ### 3. Create a Secret Object in Azure Key Vault
@@ -48,3 +55,8 @@ Using the Azure Portal
   - Value: Enter the actual sensitive value of the secret.
   - You can also set other properties like the content type, activation date, and expiration date.
 - Create: Click Create to save the secret. It will now be listed in your Key Vault and can be referenced by your applications.
+
+<img width="900" alt="azurekeyvault4" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2011.19.29%20PM.png" />
+
+
+
