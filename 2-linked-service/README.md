@@ -4,7 +4,7 @@ A linked service in Azure Data Factory (ADF) is a component that acts like a con
 It holds the connection information required for ADF to connect to external resources, 
 such as databases, file systems, cloud storage, or other services.
 
-Azure Data Lake Storage GEN2 (Adls gen2) Linked service
+Azure Data Lake Storage GEN2 (Adls gen2) Linked service (FROM AZURE SUBSCRIPTION)
 --------------------------------------------------------
 Navigate to Linked Services
 
@@ -20,7 +20,7 @@ A list of supported data store types will appear. You can search for the one you
 
 Here i will select ADLS gen2
 
-Select the connector and click Continue.
+Search for gen you will see ADLS gen2 then click continue, Select type of file format type of your data.
 
 Configure the Linked Service
 
@@ -38,3 +38,6 @@ Create the Linked Service
 
 Once the connection test is successful, click Create to save and finalize your linked service.
 
+<img width="900" alt="adlsgen2ls" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%209.59.24%20PM.png" />
+
+<img width="900" alt="adlsgen2ls1" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2010.00.34%20PM.png" />
