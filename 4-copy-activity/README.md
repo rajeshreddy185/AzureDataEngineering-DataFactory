@@ -14,6 +14,9 @@ Step-by-Step Guide
   - File name: Type in the exact name of the source file (e.g., azurede_index.pdf).
   - Confirm: The combination of the file system, folder path, and file name defines the static location of your source file.
 
+  <img width="900" alt="sourceds" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2012.05.24%20AM.png" />
+
+
 2. Configure the Sink Dataset
   - Open or Create the Sink Dataset: Create or open the ADLS Gen2 dataset for the sink. This dataset can use the same linked service as the source, or a different one.
   - Set the File Path: Similar to the source, specify the full static file path.
@@ -21,18 +24,17 @@ Step-by-Step Guide
   - Folder path: Enter the destination folder (e.g., outbound).
   - File name: Enter the exact name you want the output file to have (e.g., azure_dataeng.pdf). This will overwrite the file if it already exists in the destination.
 
+<img width="900" alt="sinkds" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2012.05.36%20AM.png" />
+
 3. Configure the Copy Activity
   - Add a Copy Activity: In your data pipeline, drag a Copy data activity onto the canvas.
   - Set Source and Sink:
     - Go to the Source tab of the copy activity and select your static source dataset.
+    - Go to the Sink tab and select your static sink dataset.
+      
+<img width="900" alt="copyactivitysource" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2012.05.50%20AM.png" />
 
-Here are the steps to configure the copy activity:
-
-- Add a Copy Activity: In your data pipeline, drag a Copy data activity onto the canvas.
-
-- Set Source and Sink:
-  - Go to the Source tab of the copy activity and select your static source dataset.
-  - Go to the Sink tab and select your static sink dataset.
+<img width="900" alt="copyactivitysink" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2012.05.57%20AM.png" />
 
 - Run the Pipeline: When you run or debug the pipeline,
   - The copy activity will read data from the specified source file and write it to the specified sink file.
