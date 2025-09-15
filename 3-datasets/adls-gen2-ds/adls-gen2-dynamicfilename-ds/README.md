@@ -18,7 +18,7 @@
     - Name: Give your dataset a descriptive name.
     - Linked Service: Select the existing ADLS Gen2 linked service you created earlier.
     - File Path: Use the file browser to navigate to the specific container, folder you want the dataset to point to.
-    - Dynamic File Name: Use the dynamic content feature to define a variable for the file name.
+    - Dynamic File Name: Use the dynamic content feature to define a variable for the file name by creating an varible and then slecting that variable in the dynamic value.
     - Create: Once configured, click OK or Create. The dataset is now ready to be used as a source or sink in your pipelines.
  
 <img width="900" alt="adlsgen2dynamic" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-15%20at%2011.49.33%20PM.png" />
