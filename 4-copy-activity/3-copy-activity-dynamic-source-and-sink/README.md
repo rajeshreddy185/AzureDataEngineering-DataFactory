@@ -5,7 +5,7 @@
 1. create the Source Dataset.
 2. Specify the folder path (e.g., `devcontainer1/inbound`). 
 
-3.Leave the File Name field empty.
+ 3.Leave the File Name field empty.
 
 <img width="900" alt="inbounddir" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%209.45.01%20PM.png" />
 
