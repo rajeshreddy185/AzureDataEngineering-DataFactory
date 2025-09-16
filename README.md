@@ -1,6 +1,3 @@
-# AzureDataEngineering-DataFactory
-Azure data factory activity's
-
 # Azure Data Factory (ADF) Overview
 
 ## What is Azure Data Factory?
