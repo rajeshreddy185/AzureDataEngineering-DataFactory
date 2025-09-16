@@ -11,8 +11,8 @@ https://github.com/rajeshreddy185/AzureDataEngineering-DataFactory/blob/main/4-c
 
 Now configure the Get Metadata activity with the exists field to see the file exists or not.
 
-<img width="900" alt="existsfield" src=<"https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.25.44%20PM.png" />
+<img width="900" alt="existsfield" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.25.44%20PM.png" />
 
 Finally output of exists field looks like below:
 
-<img width="900" alt="existsfield" src=<"https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.26.08%20PM.png" />
+<img width="900" alt="existsfield" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.26.08%20PM.png" />
