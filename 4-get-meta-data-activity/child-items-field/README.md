@@ -12,4 +12,8 @@ https://github.com/rajeshreddy185/AzureDataEngineering-DataFactory/blob/main/4-c
 
 Below is the example of the child items field:
 
-<img width="900" alt="childitems" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%209.36.18%20PM.png" />
+<img width="900" alt="childitems" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.58.56%20PM.png" />
+
+Here is the ouput of child items field:
+
+<img width="900" alt="childitemsoutput" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%209.36.18%20PM.png" />
