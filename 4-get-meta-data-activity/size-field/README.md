@@ -9,4 +9,8 @@ https://github.com/rajeshreddy185/AzureDataEngineering-DataFactory/blob/main/4-c
 
 Below is the example of the size field:
 
-<img width="900" alt="size" src="" />
+<img width="900" alt="size" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.41.58%20PM.png" />
+
+Here how it looks like output of size field:
+
+<img width="900" alt="sizeoutput" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.42.42%20PM.png" />
