@@ -6,11 +6,15 @@
 2. Specify the folder path (e.g., `devcontainer1/inbound`).
 3.Leave the File Name field empty.
 
+<img width="900" alt="inbounddir" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%209.45.01%20PM.png" />
+
 ## Step 2: Configure the Sink Dataset
 
 1. create the Sink Dataset.
 2. Specify the folder path (e.g., `devcontainer1/outbound`).
 3. Leave the File Name field empty.
+
+<img width="900" alt="outdboundir" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%209.40.50%20PM.png" />
 
 ## Step 3: Configure the Copy Activity
 
@@ -22,3 +26,5 @@
 Remember to replace `devcontainer1` with your actual container name and provide the correct folder paths for both the source and sink datasets.
 
 That's it! You have successfully created a dynamic source and sink in the Copy Activity.
+
+<img width="900" alt="dynamicsourcesink" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%209.36.18%20PM.png" />
