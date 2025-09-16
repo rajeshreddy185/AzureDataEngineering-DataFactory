@@ -9,4 +9,8 @@ https://github.com/rajeshreddy185/AzureDataEngineering-DataFactory/blob/main/4-c
 
 Here is the example of the last modified field:
 
-<img width="900" alt="lastmodified" src="" />
+<img width="900" alt="lastmodified" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.40.43%20PM.png" />
+
+Here how it looks like output of last modified  field:
+
+<img width="900" alt="lastmodifiedoutput" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.41.43%20PM.png" />
