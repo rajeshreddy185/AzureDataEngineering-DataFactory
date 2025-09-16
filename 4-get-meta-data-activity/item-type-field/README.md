@@ -9,9 +9,9 @@ https://github.com/rajeshreddy185/AzureDataEngineering-DataFactory/blob/main/4-c
 
 Below is the example of the item type field:
 
-<img width="900" alt="itemtype" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.40.28%20PM.png" />
+<img width="900" alt="itemtype" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.39.45%20PM.png" />
 
 
 Here how it looks like output of item type field:
 
-<img width="900" alt="itemtypeoutput" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.39.45%20PM.png" />
+<img width="900" alt="itemtypeoutput" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.40.28%20PM.png" />
