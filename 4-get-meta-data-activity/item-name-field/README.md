@@ -11,4 +11,9 @@ https://github.com/rajeshreddy185/AzureDataEngineering-DataFactory/blob/main/4-c
 
 Below is the example of the item name field:
 
-<img width="900" alt="itemname" src="" />
+<img width="900" alt="itemname" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.39.05%20PM.png" />
+
+
+Here how output of the item name field looks like:
+
+<img width="900" alt="itemnameoutput" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-16%20at%2010.39.32%20PM.png" />
