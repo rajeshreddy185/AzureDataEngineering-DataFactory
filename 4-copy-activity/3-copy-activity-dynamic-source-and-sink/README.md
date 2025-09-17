@@ -66,7 +66,11 @@ Here to provide the filename as runtime parameter
 4. Use the pipeline parameter in the Copy Activity source dataset filename placeholder.
 5. Run the pipeline.
 
-<img width="900" alt="runtimeparam" src="" />
+Fetch filename from getmetdata activity using an set variable activity.
 
-<img width="900" alt="runtimeparam1" src="" />
+<img width="900" alt="runtimeparam" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-17%20at%209.14.14%20AM.png" />
+
+Pass the runtime param by clicking add dynamic content to pass the parameter, also we can pass the value of the runtime parameter manually.
+
+<img width="900" alt="runtimeparam1" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-17%20at%209.14.30%20AM.png" />
 
