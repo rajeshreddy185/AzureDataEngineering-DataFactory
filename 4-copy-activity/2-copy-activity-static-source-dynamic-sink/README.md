@@ -2,6 +2,7 @@
 
 Static Source 
 how to create a static source in below link 
+
 https://github.com/rajeshreddy185/AzureDataEngineering-DataFactory/blob/main/4-copy-activity/README.md#:~:text=Step%2Dby%2DStep,your%20source%20file.
 
 
