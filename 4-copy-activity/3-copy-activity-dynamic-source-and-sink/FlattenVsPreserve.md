@@ -13,3 +13,4 @@ at the destination.
 3) Merge: This is the simplest form of merging. It involves combining multiple files with the same schema from a source 
    location into a single file at the destination.
 
+<img width="900" alt="flatvsrpreservevsmerge"  src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-18%20at%208.45.40%20PM.png" />
