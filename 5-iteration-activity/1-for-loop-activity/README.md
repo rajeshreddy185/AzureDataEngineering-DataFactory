@@ -15,3 +15,6 @@ How It Works:
 
 - Dynamic Content: Within the loop, you can use the expression @item() to reference the current item in the iteration. 
                    This is how you make the activities inside the loop dynamic.
+
+
+<img width="900" alt="foreach" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-18%20at%208.56.45%20PM.png" />
