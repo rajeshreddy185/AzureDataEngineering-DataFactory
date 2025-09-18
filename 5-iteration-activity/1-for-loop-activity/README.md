@@ -18,3 +18,7 @@ How It Works:
 
 
 <img width="900" alt="foreach" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-18%20at%208.56.45%20PM.png" />
+
+
+
+<img width="900" alt="foreach1" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-18%20at%208.57.04%20PM.png" />
