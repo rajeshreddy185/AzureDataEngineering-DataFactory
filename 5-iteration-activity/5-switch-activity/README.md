@@ -16,3 +16,6 @@ Common Use Cases
 The Switch activity is best for scenarios with multiple, distinct execution paths based on a single variable or value.
 
 Conditional Processing: For example, you could have a pipeline parameter called DataSourceType like (csv, txt, orc)
+
+
+<img width="900" alt="" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-18%20at%2010.22.15%20PM.png" />
