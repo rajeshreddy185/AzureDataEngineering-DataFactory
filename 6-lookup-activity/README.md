@@ -21,7 +21,9 @@ If it is adls dataset then it will return a single row or multiple rows based on
 - Read pipeline configuration values from a control table.
 - Validate pre-conditions (e.g., check row counts before proceeding).
 
+<img width="900" alt="lookupactivity" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%2010.17.48%20PM.png" />
 
+<img width="900" alt="lookupactivity1" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%2010.17.56%20PM.png" />
 
 Corner Cases:
 
@@ -30,3 +32,5 @@ Corner Cases:
   successfully inserted the pipeline will be failed because it is not able to get the return value.
 - If the insert statement followed by select query then it will return the inserted data and pipeline is also sucessfull
   (Other ways like script is better for statement or query where there is no return value)
+
+<img width="900" alt="lookupactivityinsert" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%2010.20.33%20PM.png" />
