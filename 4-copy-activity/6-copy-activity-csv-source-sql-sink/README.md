@@ -40,8 +40,11 @@ Example error in pipeline run:
 ErrorCode=TypeConversionFailure,
 'Type=String, Value=31/12/2025, TargetType=DateTime'
 
+<img width="900" alt="typeConversion" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%209.12.20%20PM.png" />
 
-Root cause → no locale or date format specified in Copy Activity.
+ROOT CAUSE
+-----------
+no locale/culture or date format specified in Copy Activity.
 
 RESOLUTION
 ----------
@@ -64,8 +67,6 @@ Locale → "en-GB"
 }
 }
 
-<img width="900" alt="typeConversion" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%209.12.20%20PM.png" />
-
 ERROR2
 ---------
 
@@ -84,6 +85,9 @@ This usually happens when:
 The CSV has commas inside quotes ("Product Name, Extra Text"), which ADF mistakenly treats as column separators.
 The file actually has an extra column in some rows.
 Inconsistent data entry → missing/extra delimiters.
+
+RESOLUTION
+----------
 
 2,CA-2020-152156,08/11/2020,...,"Hon Deluxe Fabric Upholstered Stacking Chairs, Rounded Back",731.94,...
 Here, the product name contains a comma inside quotes.
