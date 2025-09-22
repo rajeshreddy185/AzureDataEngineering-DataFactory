@@ -10,7 +10,9 @@ Here is the example of the copy activity of files from csv to sql database:
 6. Go to the Sink tab and select your sink dataset.
 7. Run the pipeline. The Copy Activity will read data from the specified source folder and write it to the table sink. 
 
+<img width="900" alt="csvsrc" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%209.00.04%20PM.png" />
 
+<img width="900" alt="sqlsinksrc" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%209.00.13%20PM.png" />
 
 **Faced issue**
 
@@ -62,6 +64,8 @@ Locale → "en-GB"
 }
 }
 
+<img width="900" alt="typeConversion" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%209.12.20%20PM.png" />
+
 ERROR2
 ---------
 
@@ -69,6 +73,8 @@ Operation on target Copydata failed: ErrorCode=DelimitedTextMoreColumnsThanDefin
 'Type=Microsoft.DataTransfer.Common.Shared.HybridDeliveryException,Message=Error found when processing
 'Csv/Tsv Format Text' source 'Superstore_orders.csv' with row number 34: found more columns than expected 
 column count 21.,Source=Microsoft.DataTransfer.Common,'
+
+<img width="900" alt="processingerror" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%209.12.28%20PM.png" />
 
 
 ROOT CAUSE
@@ -88,4 +94,11 @@ validate CSV schema consistency, or use fault tolerance to skip bad rows.
 
 FINALLY DATA COPY FROM CSV TO SQL DATABASE COMPLETED:
 --
+<img width="900" alt="srcpreview" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%209.03.14%20PM.png"/>
+
+<img width="900" alt="sinkpreview" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%209.03.14%20PM.png" />
+
+<img width="900" alt="mapping" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%208.02.45%20PM.png" />
+
+<img width="900" alt="output" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/mysite3/Screenshot%202025-09-22%20at%209.02.42%20PM.png" />
 
