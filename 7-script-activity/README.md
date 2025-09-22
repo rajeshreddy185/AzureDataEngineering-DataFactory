@@ -13,7 +13,9 @@ such as data manipulation language (DML) or data definition language (DDL) state
 - Stored Procedure Execution: Call a stored procedure that does not return any data.
 - Logging: Write audit records or logging information into a control table.
 
+<img width="900" alt="scriptinsert" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-22%20at%2010.30.48%20PM.png" />
 
+<img width="900" alt="scriptinsertoutput" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-22%20at%2010.31.07%20PM.png" />
 
 No Return Value Needed: Unlike a Lookup activity, the Script activity does not require a return value to succeed. 
 It's ideal for INSERT, UPDATE, DELETE, or CREATE TABLE statements.
@@ -24,3 +26,8 @@ For instance, you could pass a file name or a row count to an INSERT statement.
 Multiple Scripts: The activity can execute a single script or multiple scripts.
 
 However, if the script fails, the activity will fail, and you won't get any output.
+
+<img width="900" alt="scriptselect" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-22%20at%2010.32.24%20PM.png" />
+
+<img width="900" alt="scriptselectoutput" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-22%20at%2010.32.15%20PM.png" />
+
