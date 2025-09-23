@@ -10,12 +10,17 @@ The solution uses a control table pattern with the following components:
 3. ForEach Activity: Iterates through the mappings
 4. Copy Activity: Performs the actual data movement
 
+<img width="900" alt="preparedata" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-23%20at%208.56.08%20AM.png" />
+
+
 ## Implementation Steps
 
 ### 1. Set Up Control Table
 Create a control table with at least these columns:
 - `FileName`: Path to the source file
 - `TableName`: Target database table name
+
+<img width="900" alt="preparedata1" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-23%20at%208.57.45%20AM.png" />
 
 ### 2. Retrieve the Mappings (Lookup Activity)
 - First, use a Lookup activity to read the mapping information from your control table. 
@@ -47,3 +52,15 @@ items your pipeline will iterate over.
 - Sink Dataset: In the Sink tab, pass the corresponding tablename to your sink dataset's table name parameter using dynamic content:
 @item().TableName
 
+To create dynamic file dataset:
+
+[https://github.com/rajeshreddy185/AzureDataEngineering-DataFactory/blob/main/3-datasets/adls-gen2-ds/adls-gen2-dynamicfilename-ds/README.md
+](https://github.com/rajeshreddy185/AzureDataEngineering-DataFactory/blob/main/3-datasets/adls-gen2-ds/adls-gen2-dynamicfilename-ds/README.md#:~:text=DYNAMIC%20FILE%20NAME,in%20your%20pipelines.) 
+
+Dynamic table dataset:
+
+<img width="900" alt="dynamictable" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-23%20at%209.09.36%20AM.png" />
+
+<img width="900" alt="projectview" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-23%20at%209.09.56%20AM.png" />
+
+<img width="900" alt="output" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-23%20at%209.13.28%20AM.png" />
