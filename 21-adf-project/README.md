@@ -5,7 +5,7 @@ This project demonstrates how to create a reusable Azure Data Factory pipeline t
 
 ## Solution Architecture
 The solution uses a control table pattern with the following components:
-1. **Control Table: Stores mappings between source files and target tables
+1. Control Table: Stores mappings between source files and target tables
 2. Lookup Activity: Retrieves file-to-table mappings
 3. ForEach Activity: Iterates through the mappings
 4. Copy Activity: Performs the actual data movement
