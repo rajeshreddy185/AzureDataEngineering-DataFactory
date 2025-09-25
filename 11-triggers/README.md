@@ -11,6 +11,10 @@ ADF supports three main types of triggers:
 - It allows for flexible scheduling, such as daily, weekly, or monthly. You can specify a start date and an end date.
 - Ideal for routine, time-based tasks like a nightly data load or a daily report generation.
 
+<img width="900" alt="scheduletrigger" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-23%20at%2010.46.15%20PM.png" />
+
+<img width="900" alt="scheduletriggerexecution" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-23%20at%2011.05.58%20PM.png" />
+
 2. **Tumbling Window Trigger** 
 - A tumbling window trigger runs on a periodic, non-overlapping, and fixed-size interval. It's designed for time-series 
   data and can manage dependencies on previous windows.
@@ -20,6 +24,11 @@ ADF supports three main types of triggers:
   configured to wait for the successful completion of the previous hour's run.
 - Best for processing historical or incremental data, where you need to ensure that each time slice of data is 
   processed in a specific, non-overlapping order.
+
+<img width="900" alt="tumblingwindow" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-24%20at%208.27.38%20AM.png" />
+
+<img width="900" alt="tumblingwindowexecution" src="https://github.com/rajeshreddy185/polls/blob/main/mysite3-20210509T044718Z-001/mysite3/Screenshot%202025-09-25%20at%208.48.01%20AM.png" />
+
 
 3. **Event-Based Trigger** 
 - An event-based trigger initiates a pipeline in response to a specific event occurring in a storage account.
