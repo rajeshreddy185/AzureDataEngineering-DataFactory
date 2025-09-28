@@ -5,7 +5,8 @@ data. It's used to create a primary key for a table when the source data doesn't
 
 
 Key Features and Configuration
-Start Value: You can set the starting value of the key. By default, it's 1, but you can change it to any integer. This is useful for continuing a key sequence from a previous load.
+Start Value: You can set the starting value of the key. By default, it's 1, but you can change it to any integer. 
+This is useful for continuing a key sequence from a previous load.
 
 Increment Value: The key increments by 1 for each row by default. This value can also be configured.
 
